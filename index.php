@@ -17,9 +17,15 @@ body {
 }
 h1 {
 	font-weight: 100;
+	letter-spacing: -2px;
+	color: gray;
+	border-bottom: 1px silver solid;
+	margin-bottom: 3em;
 }
 h1 em {
 	font-weight: 900;
+	font-style: normal;
+	color: black;
 }
 </style>
 </head>
@@ -27,6 +33,13 @@ h1 em {
 <body>
 <h1><em>squrl.io</em> url storage</h1>
 <p>Under Construction</p>
+<footer>
+  <form method="post">
+    URL: <input name="url">
+    Title: <input name="title">
+    <input type="submit" value="Save">
+  </form>
+</footer>
 </body>
 
 </html>
